@@ -13,7 +13,7 @@
 
 - [cpp-practice-IT_Step-](https://github.com/configbast1/cpp-practice-IT_Step-) 
 - [C-_Structures_Practice](https://github.com/configbast1/C-_Structures_Practice) 
-- [PreprocessorMacros](https://github.com/configbast1/PreprocessorMacros)  
+
 
 
 <!--
