@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src= />
+      <img src= "https://github-readme-stats.vercel.app/api?username=configbast1&show_icons=true&theme=tokyonight"/>
     </td>
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=configbast1&layout=compact&theme=tokyonight" />
