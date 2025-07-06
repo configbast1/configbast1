@@ -24,7 +24,27 @@
 - [cpp-practice-IT_Step-](https://github.com/configbast1/cpp-practice-IT_Step-) 
 - [C-_Structures_Practice](https://github.com/configbast1/C-_Structures_Practice) 
 
+мне типо создать репозиторий name: Update README
 
+on:
+  schedule:
+    - cron: "0 */6 * * *" 
+  workflow_dispatch: # Можно запустить вручную
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate README stats
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: configbast1
+          template: classic
+          base: header, activity, community, repositories, metadata
 
 <!--
 **configbast1/configbast1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
